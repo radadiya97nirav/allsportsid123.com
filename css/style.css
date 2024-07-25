@@ -1,0 +1,823 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400;500;600;700;800&display=swap'); 
+
+body{
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #150035;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Anton', sans-serif;
+  letter-spacing:3px;
+}
+
+
+ul {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+li {
+
+    list-style: none;
+
+}
+
+
+
+:focus-visible {
+
+  outline: none;
+
+}
+
+
+
+a:not([href]):not([tabindex]) {
+
+  color: #fff !important;
+
+  cursor: pointer !important;
+
+}
+
+
+
+a.stiky-ws-fix {
+
+  position: fixed;
+
+  right: 20px !important;
+
+  bottom: 20px !important;
+
+  z-index: 1030;
+
+}
+
+
+
+header {
+
+    width: 100vw;
+
+    transition: background-color 0.3s ease;
+
+    background-color: transparent;
+
+    margin: 0;
+
+    position: fixed;
+
+    text-align: center;
+
+    top: 0;
+
+    z-index: 2;
+
+}
+
+header nav {
+
+    width: 100%;
+
+    height: 100%;
+
+    position: relative;
+
+    padding: 30px;
+
+}
+
+
+
+header nav li {
+
+    display: inline;
+
+    top: 50%;
+
+    padding-right: 2rem;
+
+}
+
+
+
+
+
+header.inverted {
+
+    background-color: #000;
+
+    box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+a,
+
+a:hover {
+
+  text-decoration: none;
+
+}
+
+
+
+/* .menu-header ul li a{
+
+  text-decoration: none;
+
+  padding: 5px 20px;
+
+  background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+
+  border-radius: 5px;
+
+  font-size: 20px;
+
+  font-family: 'Anton', sans-serif;
+
+  box-shadow: 0px 6px 0px 0px rgb(58 0 144);
+
+  text-shadow: 1px 5px 0px rgb(88 19 184 / 80%);
+
+  margin-left: 10px;
+  
+
+}
+
+
+
+.menu-header ul li a:hover {
+
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+
+  box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+
+  text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+
+} */
+
+.butn{
+  padding: 8px 20px;
+	display:inline-block;
+	vertical-align:top;
+	border-radius:53px;
+	text-decoration:none;
+	text-align:center;
+	color:#fff;
+	border: 2px solid #FCC010;
+	position:relative;
+	background:#000;
+	overflow:hidden;
+  margin-left: 10px;
+}
+.butn:before{
+	position:absolute;
+	content:'';
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:#5619AF;
+	border-radius:53px;
+
+	transition:all 0.3s ease-out;
+	-webkit-transition:all 0.3s ease-out;
+	-moz-transition:all 0.3s ease-out;
+	
+	transform:scaleX(0);
+	-webkit-transform:scaleX(0);
+	-moz-transform:scaleX(0);
+}
+.butn:hover:before{
+	transform:scaleX(1);
+	-webkit-transform:scaleX(1);
+	-moz-transform:scaleX(1);
+}
+.butn span{
+	position:relative;
+	z-index:5;
+}
+
+
+
+
+ .most-secured-id {
+
+    padding-top: 30px;
+
+  } 
+
+
+
+  .most-secured-id h3{
+
+    font-size: 50px;
+
+    color: #fff;
+
+  }
+
+
+
+  .hero {
+
+  }
+
+  
+
+  .hero-text {
+
+    font-size: 80px;
+
+    letter-spacing: 2px;
+
+  }
+
+  .text,
+
+  .text2,
+
+  .text3,
+
+  .text4 {
+
+    display: inline-block;
+
+    font-size: 1em;
+
+    font-weight: 900;
+
+    margin: 0;
+
+    line-height: 1;
+
+    color: white;
+
+  }
+
+
+
+  .most-secured-id h2{
+
+    color: #FAAB19;
+
+    padding: 20px 0;
+
+    font-family: 'Anton', sans-serif;
+
+  }
+
+
+
+  .most-secured-id p{
+
+    color: #fff;
+
+  }
+
+
+
+.celebslove-us,
+
+.open-your-demo  {
+
+    background-color: #0B001B;
+
+  }
+
+
+
+  .register-boxs {
+
+    background-color: #5419AD;
+
+    border: 5px solid #FAAB19;
+
+    border-radius: 10%;
+
+    height: 280px;
+
+    width: 280px;
+
+    color: #fff;
+
+  }
+
+
+
+  .register-boxs:hover {
+
+    background-color: #850DE5;
+
+  }
+
+
+
+  .register-boxs h3 {
+
+    font-size: 80px;
+
+  }
+
+
+
+  .register-boxs h4 {
+
+    font-size: 30px;
+
+    color: #FAAB19;
+
+  }
+
+
+
+  h2.open-your-demo-h2 {
+
+    font-size: 50px !important;
+
+  }
+
+
+
+  .open-your-demo img {
+
+    border-radius: 15px;
+
+  }
+
+.why-choose-us-img img{
+  border-radius: 15px;
+}
+
+  .why-choose-us-btn a{
+
+    width: 100% !important;
+
+    align-items: left !important;
+
+    justify-content: left !important;
+
+    display: block !important;
+
+    margin-bottom: 20px !important;
+
+    text-align: initial;
+
+  }
+
+  .text-z-index {
+    z-index: 1;
+  }
+
+  .text-left-text {
+    text-align: left !important;
+    z-index: 1;
+  }
+
+  .text-end-text {
+    text-align: end !important;
+    z-index: 1;
+  }
+
+
+
+.whatsapp-now {
+
+  background-color: #501AA8;
+
+  color: #fff;
+
+}
+
+
+
+input.whatsapp-input::placeholder { 
+
+  color: #fff;
+
+}
+
+
+
+.subcrib h3 {
+
+  color: #fff;
+
+  font-size: 32px;
+
+  margin-bottom: 20px;
+
+}
+
+
+
+.pay_form{
+
+  border: 2px solid #FCC010;
+
+  background-color: #000;
+
+  padding: 10px 20px;
+
+  border-radius: 30px;
+
+}
+
+
+
+.subcrib input,
+
+button.pay_butt{
+
+  background-color: transparent;
+
+  color: #fff;
+
+  border: none;
+
+
+
+}
+
+
+
+.lb_celeb .celeb_wrap .celebslider .item {
+
+  width: 100%;
+
+}
+
+
+
+.lb_celeb .celeb_wrap .celebslider .item .clb_img_wrap {
+
+  width: 100%;
+
+  box-shadow: 0 25px 20px -5px rgb(0 0 0 / 30%);
+
+  border-radius: 20px;
+
+  position: relative;
+
+}
+
+
+
+.lb_celeb .celeb_wrap .celebslider .item .clb_img_wrap .clb_img {
+
+  width: 100%;
+
+  border-radius: 20px;
+
+}
+
+
+
+.lb_celeb .celeb_wrap .celebslider .item .clb_img_wrap .a_play {
+
+  position: absolute;
+
+  left: 50%;
+
+  top: 50%;
+
+  transform: translate(-50%,-50%);
+
+  max-width: 90px;
+
+}
+
+
+
+.modal-dialog {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+
+  margin: 0 auto;
+
+}
+
+
+
+.btn-close {
+
+    position: absolute;
+
+    top: -10px;
+
+    right: -10px;
+
+    background: url(../img/close2.png) center/2em auto no-repeat !important;
+
+    border-radius: 1.375rem;
+
+    background-color: red !important;
+
+    padding: 10px;
+
+}
+
+
+
+.btn-close:focus {
+
+  box-shadow: none;
+
+}
+
+
+
+.modal-content {
+
+  width: auto;
+
+  background-color: transparent;
+
+}
+
+
+
+.lb_celeb .celeb_wrap .celebslider .owl-nav button.owl-prev {
+
+  width: 63px;
+
+  height: 45px;
+
+  background: url(../img/prv.png) no-repeat center center !important;
+
+  background-size: 80px auto !important;
+
+  margin: 0;
+
+  border-radius: 0;
+
+  padding: 0 !important;
+
+}
+
+
+
+.lb_celeb .celeb_wrap .celebslider .owl-nav button.owl-next {
+
+  width: 63px;
+
+  height: 45px;
+
+  background: url(../img/nxt.png) no-repeat center center !important;
+
+  background-size: 80px auto !important;
+
+  margin: 0;
+
+  border-radius: 0;
+
+  padding: 0 !important;
+
+}
+
+
+
+.owl-carousel .owl-nav span {
+
+  display: none;
+
+}
+
+
+
+.lb_celeb .celeb_wrap .celebslider .owl-nav {
+
+  justify-content: space-between;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  padding-top: 20px;
+
+}
+
+
+
+  .footer {
+
+    background-color: #0B001B;
+
+    color: #fff;
+
+  }
+
+  
+
+  .footer h3{
+
+    color: #FAAB19;
+
+    font-size: 32px;
+
+
+    margin-bottom: 30px;
+
+  }
+
+
+
+  .foot-img p{
+
+    font-size: 18px;
+
+    font-weight: 800;
+
+  }
+
+
+
+  .foot-about a {
+
+    padding-right: 10px;
+
+    font-size: 24px;
+
+    color: #fff !important;
+
+  }
+
+
+
+  .foot-about a:hover{
+
+    color: #FAAB19 !important;   
+
+  }
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 991px) {
+
+    .most-secured-id,
+
+    .subcrib h3 {
+
+      text-align: center;
+
+    }
+
+
+
+    .most-secured-id h2 {
+
+      padding: 0;
+
+    }
+
+
+
+    
+
+
+
+  }
+
+
+
+
+
+  @media only screen and (max-width: 767px) {
+
+    header {
+      padding: 10px 0;
+    }
+
+    .most-secured-id {
+      padding-top: 0px;
+    }
+
+    .butn  {
+
+      font-size: 14px;
+
+      padding: 5px 14px;
+
+      margin-right: 5px;
+
+
+    }
+
+
+
+    .register-boxs {
+
+      height: 200px;
+
+      width: 200px;
+
+    }
+
+
+
+    .register-boxs h3 {
+
+      font-size: 60px;
+
+    }
+
+
+
+    .register-boxs h4 {
+
+      font-size: 24px;
+
+    }
+
+
+
+    .why-choose-us h2 {
+
+      margin: 0 !important;
+
+    }
+
+
+
+  }
+
+
+
+
+
+  @media only screen and (max-width: 442px) {
+
+    .butn  {
+
+      font-size: 14px;
+      padding: 2px 8px;
+      margin-left: 3px;
+
+    }
+
+
+
+    .hero-text {
+
+      font-size: 50px;
+
+    }
+
+
+
+    .most-secured-id h3 {
+
+      font-size: 35px;
+
+    }
+
+
+
+    h2.open-your-demo-h2 {
+
+      font-size: 32px !important;
+
+   }
+
+
+
+  }
+
+
+  @media only screen and (max-width: 317px) {
+
+    .butn  {
+
+      font-size: 11px;
+      padding: 2px 6px;
+      margin-left: 3px;
+
+    }
+  }
